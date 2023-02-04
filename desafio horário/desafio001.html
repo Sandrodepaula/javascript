@@ -7,15 +7,24 @@
     <title>Mostrando as horas</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+
+<body onload="carregar()">
     <header id="cabeça">
       <h1>Hora do dia</h1>
         
     </header>
     <section>
-        <div class="horario"></div>
-        <div class="imagem"></div>
+        <div id="msg">
+            Aqui vai aparecer uma msg...
+        </div>
+            
+
+        <div id="foto">
+            <img id="imagem" src="manhã.png" alt="foto manhã">
+        </div>
+            
     </section>
     <footer>Sandro D'Paula</footer>
+    <script src="script.js"></script>
 </body>
 </html>

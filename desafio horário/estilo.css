@@ -19,6 +19,10 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
 }
+#imagem {
+    height: 350px;
+    width: 500px;
+}
 
 footer{
     text-align: center;
